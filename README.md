@@ -43,8 +43,9 @@ To run this project locally on your machine, follow these steps:
 6. Open your browser and navigate to:
    ```bash
    http://localhost:3000
-
+   ```
 ## Deployed App
-### You can access the live version of the app `[here](https://dacoid-digital-react-js-development-internship.vercel.app/)`
+You can access the live version of the app [here](https://dacoid-digital-react-js-development-internship.vercel.app/).
+
 
 
