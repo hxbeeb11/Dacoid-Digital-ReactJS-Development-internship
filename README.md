@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dynamic Calendar
 
-## Getting Started
+This is a Dynamic Calendar application built using Next.js. The calendar allows users to view and interact with dates dynamically, providing features like adding events, viewing detailed events for specific dates, and navigating between months and years. The application is responsive and can be used on both desktop and mobile devices.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Calendar View**: View the current month and navigate between months and years.
+- **Add Events**: Add custom events to specific dates on the calendar.
+- **Event Details**: View detailed information about events on each date.
+- **Date Navigation**: Easily move between months and years using navigation controls.
+- **Event Filtering**: Easily filter through your registered events to find the required event by searching in the search bar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instructions to Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run this project locally on your machine, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js (v16 or later)
+- npm or yarn
 
-To learn more about Next.js, take a look at the following resources:
+### Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/Dacoid-Digital-ReactJS-Development-internship.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd Dacoid-Digital-ReactJS-Development-internship
+3. Install the dependencies:
+   ```bash
+   npm install
+   # or if you prefer yarn
+   yarn install
+   ```
+5. Run the app locally:
+   ```bash
+   npm run dev
+   # or if you prefer yarn
+   yarn dev
+   ```
+6. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployed App
+### You can access the live version of the app `[here](https://dacoid-digital-react-js-development-internship.vercel.app/)`
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
